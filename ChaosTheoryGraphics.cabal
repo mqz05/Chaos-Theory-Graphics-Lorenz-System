@@ -1,0 +1,76 @@
+cabal-version: 2.2
+
+-- This file has been generated from package.yaml by hpack version 0.35.1.
+--
+-- see: https://github.com/sol/hpack
+
+name:           ChaosTheoryGraphics
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/mqz05/Chaos-Theory-Graphics-Lorenz-System/blob/main/ChaosTheoryGraphics/README.md>
+homepage:       https://github.com/mqz05/Chaos-Theory-Graphics-Lorenz-System.git#readme
+bug-reports:    https://github.com/mqz05/Chaos-Theory-Graphics-Lorenz-System.git/issues
+author:         Muqi Zhang
+maintainer:     s2473175@ed.ac.uk
+copyright:      2023 Muqi Zhang
+license:        BSD-3-Clause
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    CHANGELOG.md
+
+source-repository head
+  type: git
+  location: https://github.com/mqz05/Chaos-Theory-Graphics-Lorenz-System.git
+
+library
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_ChaosTheoryGraphics
+  autogen-modules:
+      Paths_ChaosTheoryGraphics
+  hs-source-dirs:
+      src
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
+  build-depends:
+      base >=4.7 && <5
+    , diagrams
+    , diagrams-lib
+    , gloss
+  default-language: Haskell2010
+
+executable ChaosTheoryGraphics-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_ChaosTheoryGraphics
+  autogen-modules:
+      Paths_ChaosTheoryGraphics
+  hs-source-dirs:
+      app
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      ChaosTheoryGraphics
+    , base >=4.7 && <5
+    , diagrams
+    , diagrams-lib
+    , gloss
+  default-language: Haskell2010
+
+test-suite ChaosTheoryGraphics-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_ChaosTheoryGraphics
+  autogen-modules:
+      Paths_ChaosTheoryGraphics
+  hs-source-dirs:
+      test
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      ChaosTheoryGraphics
+    , base >=4.7 && <5
+    , diagrams
+    , diagrams-lib
+    , gloss
+  default-language: Haskell2010
