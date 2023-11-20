@@ -15,8 +15,8 @@ This Haskell project this project is based on graphing the Lorenz System through
 To use this project, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/mqz05/Chaos-Theory-Graphics-Lorenz-System.git`
-2. Navigate to the project directory: `cd lorenz-system-plotter`
-3. Install required dependencies (if any): `stack build`
+2. Navigate to the project directory: `cd ChaosTheoryGraphics`
+5. Install required dependencies (if any): `stack build`
 
 ## Usage
 
