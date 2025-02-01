@@ -2,7 +2,7 @@
 
 ## Description
 
-This Haskell project this project is based on graphing the Lorenz System through Haskell. The Lorenz System is based on a certain set of differential equations, which stand out for their chaotic behaviour and at the same time generate visually impressive graphs depending on the parameters introduced.
+This Haskell project is based on graphing the Lorenz System in 2D/3D. The Lorenz System is based on a certain set of differential equations, which stand out for their chaotic behaviour and at the same time generate visually impressive graphs depending on the parameters introduced.
 
 ## Features
 
