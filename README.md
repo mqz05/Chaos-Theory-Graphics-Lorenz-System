@@ -4,6 +4,17 @@
 
 This Haskell project is based on graphing the Lorenz System in 2D/3D. The Lorenz System is based on a certain set of differential equations, which stand out for their chaotic behaviour and at the same time generate visually impressive graphs depending on the parameters introduced.
 
+## **Screenshots**  <a name="screenshots"></a> 
+Here are some screenshots:  
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/54ed33ca-fc13-4477-8436-b4603a6dba46" width="45%">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/8740f171-3160-410e-847d-79f267cf1566" width="45%">
+  <br>
+  <img src="https://github.com/user-attachments/assets/0a53d663-f270-47a0-97ae-4de637a94be6" width="45%">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/86309b2c-94c6-4408-9990-278f5e03ce51" width="45%">
+</p>
+
 ## Features
 
 - **Plotting**: Generates 2D/3D visualizations of the Lorenz attractor based on user-defined parameters.
